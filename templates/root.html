@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% block title %} Form v2 {% endblock %}
+
+
+
+{% block content %}
+  <h1>{{title}}</h1>
+  <p> {{instructions}} </p>
+
+  <form action="/start" method="POST">
+    <button>Begin</button>
+  </form>
+  
+  
+  </body>
+</html>
+{% endblock %}
